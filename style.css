@@ -1,0 +1,19 @@
+nav{
+    background-color: #AD242C;
+    height: 7em;
+    padding: auto; 
+    border: auto;
+    text-align: center;
+}
+body{
+    background-color: #ECDEB9;
+}
+a{
+    color: white;
+    font-weight: bolder;
+}
+h1{
+    color: white;
+    padding: .5em; 
+    border: .5em;
+}
