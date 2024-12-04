@@ -5,8 +5,8 @@ nav{
     border: auto;
     text-align: center;
 }
-body{
-    background-color: #ECDEB9;
+img{
+    z-index: -1;
 }
 a{
     color: white;
