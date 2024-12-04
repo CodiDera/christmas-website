@@ -18,17 +18,18 @@ h1{
     margin-right: auto; 
 }
 .left-text{
-    font-size: 10px;
+    font-size: 1vw;
     z-index: 1;
     position: absolute; 
-    left: 30em; 
+    left: 32em; 
     top: 20em; 
 }
 .right-text{
+    font-size: 1vw; 
+    z-index: 1;
     position: absolute; 
-    right: 30em; 
+    right: 32em; 
     top: 20em; 
-    font-size: 10px; 
 }
 img{
     z-index: -1;
