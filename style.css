@@ -2,11 +2,7 @@ nav{
     background-color: #AD242C;
     height: 7em;
     padding: auto; 
-    border: auto;
     text-align: center;
-}
-img{
-    z-index: -1;
 }
 a{
     color: white;
@@ -15,5 +11,25 @@ a{
 h1{
     color: white;
     padding: .5em; 
-    border: .5em;
+}
+.container{
+    display: flex;
+    margin-left: auto; 
+    margin-right: auto; 
+}
+.left-text{
+    font-size: 10px;
+    z-index: 1;
+    position: absolute; 
+    left: 30em; 
+    top: 20em; 
+}
+.right-text{
+    position: absolute; 
+    right: 30em; 
+    top: 20em; 
+    font-size: 10px; 
+}
+img{
+    z-index: -1;
 }
