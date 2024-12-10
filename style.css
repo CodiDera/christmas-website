@@ -13,25 +13,38 @@ h1{
     padding: .5em; 
 }
 .container{
-    display: flex;
-    margin-left: auto; 
-    margin-right: auto; 
+    grid-template-columns: 80px 80px 80px;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
 }
-.left-text{
-    font-size: 1vw;
-    z-index: 1;
-    position: absolute; 
-    left: 32em; 
-    top: 20em; 
+.item-1{
+    max-width: 380px;
+    max-height: 380px;
+    min-height: 380px;
+    min-width: 380px;
+    grid-column: 1 / span 3; 
+    padding: 10px;
+    margin: auto;
+    width: 50%;
 }
-.right-text{
-    font-size: 1vw; 
-    z-index: 1;
-    position: absolute; 
-    right: 32em; 
-    top: 20em; 
+.standard-item{
+    max-width: 8em;
+    max-height: 10em;
+    min-width: 8em;
+    min-height: 10em;
+    grid-column: 1 / span 1; 
+    padding: 1em;
+    width: 50%;
+    margin: auto;
 }
 img{
     z-index: -1;
+    width: 5em;
+    height: 5em;
+}
+body{
+    align-items: center;
+    text-align: center;
 }
 <!-- color scheme is https://www.schemecolor.com/simple-vintage-christmas.php>

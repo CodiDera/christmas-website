@@ -1,0 +1,30 @@
+<div class="container">
+                <div class="left-text">
+                    <a style="color: #226F61;" href="https://www.allrecipes.com/sugar-cookie-tree-stacks-with-cream-cheese-frosting-recipe-8747947">
+                        Recipe 1: 
+                        Sugar Cookie Christmas Tree
+                    </a>
+                </div>
+                    <img style="height: 10em; right: 32em; top: 20em;" src="https://www.allrecipes.com/thmb/0lYIRTsowR3pEFZ4vAeltVI3c78=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/sugar-cookies-tree-stacks-4x3-DDMFS-170-97682598274544e58731832b62ae3482.jpg">
+                <div class="right-text">
+                    <a style="color: #226F61;" href="https://www.allrecipes.com/cranberry-brie-pull-apart-bread-recipe-8732507">
+                        Recipe 2: 
+                        Cranberry Brie Pull Apart
+                    </a>
+                </div>
+                <img style="max-width: 55%; min-width: 55%; margin-left: auto; margin-right: auto;" src="https://t3.ftcdn.net/jpg/08/17/65/00/240_F_817650062_Zjhh6BC4XdvEel64d3QyPjMadqvUaeTp.jpg">
+</div>
+.left-text{
+    font-size: 1vw;
+    z-index: 1;
+    position: absolute; 
+    left: 32em; 
+    top: 20em; 
+}
+.right-text{
+    font-size: 1vw; 
+    z-index: 1;
+    position: absolute; 
+    right: 32em; 
+    top: 20em; 
+}
