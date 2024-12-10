@@ -13,30 +13,23 @@ h1{
     padding: .5em; 
 }
 .container{
-    grid-template-columns: 80px 80px 80px;
     display: inline-flex;
     align-items: center;
     text-align: center;
 }
-.item-1{
-    max-width: 380px;
-    max-height: 380px;
-    min-height: 380px;
-    min-width: 380px;
-    grid-column: 1 / span 3; 
-    padding: 10px;
-    margin: auto;
-    width: 50%;
+.left-text{
+    font-size: 1vw;
+    z-index: 1;
+    position: absolute; 
+    left: 32em; 
+    top: 20em; 
 }
-.standard-item{
-    max-width: 8em;
-    max-height: 10em;
-    min-width: 8em;
-    min-height: 10em;
-    grid-column: 1 / span 1; 
-    padding: 1em;
-    width: 50%;
-    margin: auto;
+.right-text{
+    font-size: 1vw; 
+    z-index: 1;
+    position: absolute; 
+    right: 32em; 
+    top: 20em; 
 }
 img{
     z-index: -1;
@@ -47,4 +40,3 @@ body{
     align-items: center;
     text-align: center;
 }
-<!-- color scheme is https://www.schemecolor.com/simple-vintage-christmas.php>
