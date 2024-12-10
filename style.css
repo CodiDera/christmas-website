@@ -12,6 +12,10 @@ h1{
     color: white;
     padding: .5em; 
 }
+h3{
+    color: white;
+    background-color: #AD242C;
+}
 .container{
     display: inline-flex;
     align-items: center;
@@ -22,14 +26,14 @@ h1{
     z-index: 1;
     position: absolute; 
     left: 32em; 
-    top: 20em; 
+    top: 320px; 
 }
 .right-text{
     font-size: 1vw; 
     z-index: 1;
     position: absolute; 
     right: 32em; 
-    top: 20em; 
+    top: 320px; 
 }
 img{
     z-index: -1;
@@ -39,4 +43,5 @@ img{
 body{
     align-items: center;
     text-align: center;
+    overflow: hidden clip; 
 }
