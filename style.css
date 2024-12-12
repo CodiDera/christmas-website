@@ -4,6 +4,24 @@ nav{
     padding: auto; 
     text-align: center;
 }
+iframe{
+    height: 25vw;
+    width: 25vw;
+    margin: 2em;
+}
+.imgcraft1{
+    position: absolute;
+    top: 120px; 
+    z-index: -1;
+    left: 8px;
+}
+.imgcraft2{
+    position: absolute;
+    top: 120px;
+    z-index: -1;
+    transform: scaleX(-1);
+    right: 8px;
+}
 a{
     color: white;
     font-weight: bolder;
